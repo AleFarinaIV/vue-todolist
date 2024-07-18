@@ -27,8 +27,8 @@
                     <h3 class="mb-5"><i class="fa-solid fa-circle-exclamation"></i> 
                         Mi raccomando non te ne scordare 
                         <i class="fa-solid fa-circle-exclamation"></i></h3>
-                        <input type="text" placeholder="Inserisci una task" v-model="new_task">
-                        <button class="btn btn-primary">Aggiungi</button>
+                    <input type="text" placeholder="Inserisci una task" v-model="new_task" @keyup.enter="newTask()">
+                    <button class="btn btn-primary" @click="newTask()">Aggiungi</button>
                 </span>
                 <div class="todolist">
                     <ul>
