@@ -11,12 +11,15 @@ header {
     color: white;
     font-weight: bold;
     font-size: 24px;
+    position: fixed;
+    width: 100%;
 }
 
 main {
     background-color: rgba(28, 28, 173, 0.808);
-    height: 100vh;
-    padding-top: 50px;
+    height: calc(100% - 50px);
+    padding-top: 100px;
+    text-align: center;
 }
 
 .todolist {
