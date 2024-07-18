@@ -26,5 +26,12 @@ createApp ({
             ],
             id_counter: 0,
         }
+    },
+    methods: {
+        trush_click(index) {
+            this.id_counter = index;
+            console.log('trush_clicked', index);
+            this.todolist.splice(index, 1);
+        }
     }
 }).mount('#app')
