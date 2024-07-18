@@ -23,7 +23,8 @@ createApp ({
                     text: 'Portare fuori la spazzatura',
                     done: false,
                 }
-            ]
+            ],
+            id_counter: 0,
         }
     }
 }).mount('#app')
