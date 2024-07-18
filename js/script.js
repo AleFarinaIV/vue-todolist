@@ -33,6 +33,15 @@ createApp ({
             this.id_counter = index;
             console.log('trash_clicked', index);
             this.todolist.splice(index, 1);
+        },
+
+        newTask() {
+            let newTaskAdded = {
+                text: this.new_task,
+                done: false,
+            }
+            this.todolist.push(newTaskAdded);
+            this.new_task = null;
         }
     }
 }).mount('#app')
