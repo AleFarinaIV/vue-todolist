@@ -14,14 +14,14 @@ createApp ({
                     text: 'Comprare il giornale',
                     done: true,
                 },{
-                    text: 'Portare fuori la spazzatura',
-                    done: true,
+                    text: 'Preparare la cena',
+                    done: false
                 },{
                     text: 'Finire l\'esercizio del giorno',
                     done: true,
                 },{
-                    text: 'Preparare la cena',
-                    done: false
+                    text: 'Portare fuori la spazzatura',
+                    done: false,
                 }
             ]
         }

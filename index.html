@@ -17,9 +17,26 @@
     </head>
     <body>
         <div id="app">
+            <!-- Fare header fixed -->
+            <header class="d-flex">
+                <h1>TodoList</h1>
+            </header>
+            <main>
+                <div class="todolist">
+                    <ul>
+                        <div>
+                            <li v-for="item, index in todolist" class="fs-5">
+                                <div class="d-flex">
+                                    <span :class="item.done === true ? 'text-overline' : ''">{{ item.text }}</span>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </main>
 
         </div>
-        
+
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <script src="./js/script.js"></script>
     </body>

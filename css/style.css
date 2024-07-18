@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: navy;
+    padding: 5px 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main {
+    background-color: rgba(28, 28, 173, 0.808);
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.todolist {
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    /* background-color: rgba(48, 48, 168, 0.815); */
+    background-color: rgba(255, 255, 255, 0.644);
+    padding: 30px;
+}
+
+li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.5);
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    background-color: #af4c4c;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text-overline {
+    text-decoration: line-through;
+}
